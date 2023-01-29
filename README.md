@@ -1,7 +1,10 @@
 # 64hour-ML-hackathon
 
 Overview
-This document summarises the analysis and training of a RandomForest model applied to the device_failure.csv dataset and is complementary to the jupyter notebook that contains the code and algorithms used to achieve the results presented in this document. Question You are tasked with building a model using machine learning to predict the probability of a device failure. When building this model, be sure to minimize false positives and false negatives. The column you are trying to predict is called failure with binary value 0 for non-failure and 1 for failure.
+This document summarises the analysis and training of a ML model applied to the predictive maintainence.csv dataset and is complementary to the jupyter notebook that contains the code and algorithms used to achieve the results presented in this document.
+
+Question 
+You are tasked with building a model using machine learning to predict the probability of a device failure. When building this model, be sure to minimize false positives and false negatives. The column you are trying to predict is called failure with binary value 0 for non-failure and 1 for failure.
 
 The Dataset
 The dataset was composed 12 columns: date, device, failure, and attribute[1-9] and it has a total of 124494 rows of records from 2015-01-01 to 2015-11-02 for a total of 304 days of records. The device column has 1163 unique classes, and the target column failure has two classes ‘0’ and ‘1’.
